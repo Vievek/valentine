@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pages {
+  background-image: url(./components/img/wp4869110-love-hd-mobile-wallpapers.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poppins', sans-serifS;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.anchor {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 30px;
+  border: white 2px solid;
+  align-self: center;
+  justify-self: flex-end;
+  position: absolute;
+  bottom: 150px;
+  text-decoration: none;
+}
+
+.anchor h1 {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: 200;
 }

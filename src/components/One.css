@@ -1,0 +1,32 @@
+.OnetextParent {
+    margin: 100px 50px;
+}
+
+.Onetext {
+    position: relative;
+    color: rgba(0, 0, 0, .3);
+    font-size: 5em
+}
+
+.Onetext:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 9em;
+    white-space: nowrap;
+    color: #fff;
+    -webkit-animation: loading 8s linear;
+    animation: loading 8s linear;
+}
+
+@-webkit-keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
